@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA9461C81BFE8A0B0047025C /* TwitterLogo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9461C71BFE8A0B0047025C /* TwitterLogo_white.png */; };
+		EA9461CD1BFE8E380047025C /* TwitterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9461CC1BFE8E380047025C /* TwitterLoginViewController.m */; };
+		EA9461D01BFE8E6C0047025C /* MediaTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9461CF1BFE8E6C0047025C /* MediaTableTableViewController.m */; };
 		EAF468221BF55FA80097D230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF468211BF55FA80097D230 /* main.m */; };
 		EAF468251BF55FA80097D230 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF468241BF55FA80097D230 /* AppDelegate.m */; };
 		EAF468281BF55FA80097D230 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF468271BF55FA80097D230 /* ViewController.m */; };
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA9461C71BFE8A0B0047025C /* TwitterLogo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwitterLogo_white.png; path = "../../../../Downloads/brand guideline logos/TwitterLogo_white.png"; sourceTree = "<group>"; };
+		EA9461CB1BFE8E380047025C /* TwitterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginViewController.h; sourceTree = "<group>"; };
+		EA9461CC1BFE8E380047025C /* TwitterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginViewController.m; sourceTree = "<group>"; };
+		EA9461CE1BFE8E6C0047025C /* MediaTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableTableViewController.h; sourceTree = "<group>"; };
+		EA9461CF1BFE8E6C0047025C /* MediaTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableTableViewController.m; sourceTree = "<group>"; };
 		EAF4681D1BF55FA80097D230 /* Delay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF468211BF55FA80097D230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAF468231BF55FA80097D230 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA9461C91BFE8D970047025C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA9461C71BFE8A0B0047025C /* TwitterLogo_white.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EA9461CA1BFE8DA00047025C /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				EAF4682C1BF55FA80097D230 /* Delay.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		EAF468141BF55FA80097D230 = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +131,12 @@
 				EAF468241BF55FA80097D230 /* AppDelegate.m */,
 				EAF468261BF55FA80097D230 /* ViewController.h */,
 				EAF468271BF55FA80097D230 /* ViewController.m */,
+				EA9461CE1BFE8E6C0047025C /* MediaTableTableViewController.h */,
+				EA9461CF1BFE8E6C0047025C /* MediaTableTableViewController.m */,
+				EA9461CB1BFE8E380047025C /* TwitterLoginViewController.h */,
+				EA9461CC1BFE8E380047025C /* TwitterLoginViewController.m */,
 				EAF468291BF55FA80097D230 /* Main.storyboard */,
-				EAF4682F1BF55FA80097D230 /* Assets.xcassets */,
-				EAF468311BF55FA80097D230 /* LaunchScreen.storyboard */,
-				EAF468341BF55FA80097D230 /* Info.plist */,
-				EAF4682C1BF55FA80097D230 /* Delay.xcdatamodeld */,
+				EA9461CA1BFE8DA00047025C /* Core Data */,
 				EAF468201BF55FA80097D230 /* Supporting Files */,
 			);
 			path = Delay;
@@ -120,6 +145,10 @@
 		EAF468201BF55FA80097D230 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA9461C91BFE8D970047025C /* Images */,
+				EAF4682F1BF55FA80097D230 /* Assets.xcassets */,
+				EAF468311BF55FA80097D230 /* LaunchScreen.storyboard */,
+				EAF468341BF55FA80097D230 /* Info.plist */,
 				EAF468211BF55FA80097D230 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9461C81BFE8A0B0047025C /* TwitterLogo_white.png in Resources */,
 				EAF468331BF55FA80097D230 /* LaunchScreen.storyboard in Resources */,
 				EAF468301BF55FA80097D230 /* Assets.xcassets in Resources */,
 				EAF4682B1BF55FA80097D230 /* Main.storyboard in Resources */,
@@ -274,8 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF468281BF55FA80097D230 /* ViewController.m in Sources */,
+				EA9461D01BFE8E6C0047025C /* MediaTableTableViewController.m in Sources */,
 				EAF4682E1BF55FA80097D230 /* Delay.xcdatamodeld in Sources */,
 				EAF468251BF55FA80097D230 /* AppDelegate.m in Sources */,
+				EA9461CD1BFE8E380047025C /* TwitterLoginViewController.m in Sources */,
 				EAF468221BF55FA80097D230 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +534,7 @@
 				EAF4684F1BF55FA80097D230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF468501BF55FA80097D230 /* Build configuration list for PBXNativeTarget "DelayTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +543,7 @@
 				EAF468521BF55FA80097D230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAF468531BF55FA80097D230 /* Build configuration list for PBXNativeTarget "DelayUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +552,7 @@
 				EAF468551BF55FA80097D230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
